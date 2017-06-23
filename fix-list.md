@@ -5,7 +5,8 @@
 1. Compressed all images with [Optimizilla](http://optimizilla.com/).
 2. Added ``media`` query in the ``print.css`` link.
 3. Added ``async`` keyword in ``script`` tags.
-4. Moved ``link``s to the bottom of the page following advice [here](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery).
+4. Moved scripts to the bottom of the page.
+5. Added async scripts for creating ``link``'s to CSS files AFTER the ``body`` loads.
 
 ### Index.html
 1. Replaced pizzeria thumbnail with a smaller image.
