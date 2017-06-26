@@ -3,7 +3,7 @@
 <head>
 </head>
 
-<body onload="loadCSS()">
+<body>
   <div class="container">
     <div id="header" class="row">
       <div class="col-md-6">
@@ -139,18 +139,5 @@
 </html>
 
 <script defer src="js/main.js"></script>
-<!-- <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/bootstrap-grid.css"> -->
-
-<script async type="text/javascript">
-  function loadCSS() {
-    var bootstrapLink = document.createElement('link');
-    bootstrapLink.setAttribute('href', 'css/bootstrap-grid.css');
-    bootstrapLink.setAttribute('rel', 'stylesheet');
-    document.getElementsByTagName('html')[0].appendChild(bootstrapLink);
-    var styleLink = document.createElement('link');
-    styleLink.setAttribute('href', 'css/style.css');
-    styleLink.setAttribute('rel', 'stylesheet');
-    document.getElementsByTagName('html')[0].appendChild(styleLink);
-  }
-</script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap-grid.css">
