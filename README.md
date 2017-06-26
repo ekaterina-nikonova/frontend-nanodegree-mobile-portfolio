@@ -1,3 +1,11 @@
+## Testing
+
+This is the Website Optimization Project for the Udacity Front-End Web Development Nanodegree. The live version of this site is hosted [here](https://ekaterina-nikonova.github.io/frontend-nanodegree-mobile-portfolio/). To test the ``index.html`` file at Page Speed Insights, just click [this link](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fekaterina-nikonova.github.io%2Ffrontend-nanodegree-mobile-portfolio).
+
+If screenshots of my Dev Tools diagrams and Page Speed Insights reports before and after the optimization are of any interest, they can be found in the ``report`` folder.
+
+My comments across all files begin with ``EN:``.
+
 ## Improvements and fixes
 
 ### All files
@@ -6,13 +14,12 @@
 * Added ``media`` query in the ``print.css`` link.
 * Added ``async`` keyword in ``script`` tags.
 * Moved scripts to the bottom of the page.
-* Added async scripts for creating ``link``'s to CSS files AFTER the ``body`` loads. It makes little sense to inline CSS since the same ``style.css`` file is used across multiple pages.
+* Added scripts for creating ``link``'s to CSS files AFTER the ``body`` loads. It makes little sense to inline CSS since the same ``style.css`` file is used across multiple pages.
 
 ### Index.html
 * Replaced pizzeria thumbnail with a smaller image.
 * Removed unused ``700`` style from **Google Fonts** link.
 
-Screenshots of Dev Tools diagrams and Page Speed Insights reports before and after the optimization can be found in the ``report`` folder.
 
 ### Pizza.html
 * Resized the pizzeria image (it's never larger than 720px).
