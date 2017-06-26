@@ -59,14 +59,19 @@
 
 <script async type="text/javascript">
   function loadCSS() {
-    var fontLink = document.createElement('link');
-    fontLink.setAttribute('href', '//fonts.googleapis.com/css?family=Open+Sans:400');
-    fontLink.setAttribute('rel', 'stylesheet');
-    document.getElementsByTagName('body')[0].appendChild(fontLink);
     var styleLink = document.createElement('link');
     styleLink.setAttribute('href', 'css/style.css');
     styleLink.setAttribute('rel', 'stylesheet');
     document.getElementsByTagName('body')[0].appendChild(styleLink);
+    /*
+     * EN: Unfortunately, I have to get rid of Google Fonts.
+     * The Page Speed Insights sees them as a major performance issue,
+     * even though this way they are loaded after the plain text appears.
+     */
+    // var fontLink = document.createElement('link');
+    // fontLink.setAttribute('href', '//fonts.googleapis.com/css?family=Open+Sans:400');
+    // fontLink.setAttribute('rel', 'stylesheet');
+    // document.getElementsByTagName('body')[0].appendChild(fontLink);
   }
 </script>
 

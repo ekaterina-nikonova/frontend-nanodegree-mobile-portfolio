@@ -12,10 +12,7 @@
 1. Replaced pizzeria thumbnail with a smaller image.
 2. Removed unused ``700`` style from **Google Fonts** link.
 
-### Project-2048.html
-1. Compressed the large PNG image.
-2. Added ``media`` query in the ``print.css`` link.
-3. Added ``async`` keyword in ``script`` tags.
-
 ### Pizza.html
 1. Resized the pizzeria image (it's never larger than 720px).
+
+### 60-fps pizzeria
